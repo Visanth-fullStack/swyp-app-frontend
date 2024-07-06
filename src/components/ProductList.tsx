@@ -83,7 +83,7 @@ export const ProductList: React.FC = () => {
                 <td>{product.name}</td>
                 <td>{product.description}</td>
                 <td>${product.price}</td>
-                <td><img src={`http://localhost:5000/${product.image}`} alt={product.name} style={{ maxWidth: '200px', height: 'auto' }} /></td>
+                <td><img src={`http://localhost:5000/${product.image}`} alt={product.name} style={{ maxWidth: '200px', height: '200px' }} /></td>
               </tr>
             ))}
           </tbody>
